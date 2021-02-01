@@ -1,0 +1,22 @@
+{
+  "name": "socket-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "driver1": "nodemon src/driver1.js",
+    "driver2": "nodemon src/driver2.js",
+    "driver3": "nodemon src/driver3.js",
+    "store": "nodemon src/store.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
